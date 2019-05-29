@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Count";
+  src: url("media/fonts/count\ italic.ttf") format("truetype"),
+ }
+
+body  {
+  background-color: black;
+  margin: 0 auto;
+}
+
+header  {
+  position: fixed;
+  width: 100vw;
+  #backtothefutur {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #2c3a61;
+    border: solid 1px #464a55;
+    height: 12vh;
+    width: 100%;
+    #countImg {
+      position: absolute;
+      height: 100%;
+      left: 2vw;
+    }
+    #deloreanImg  {
+      position: absolute;
+      height: 100%;
+      right: 1vw;
+    }
+    #count  {
+      form  {
+        display: flex;
+        position: relative;
+        margin-left: 3.5vw;
+        margin-top: 3.2vh;
+        input {
+          font-family: 'Count';
+          font-size: 2rem;
+          background-color: black;
+          color: greenyellow;
+          list-style: none;
+          letter-spacing: 0.2rem;
+          height: 5vh;
+          text-align: center;
+        }
+        #month  {
+          font-family: 'Count';
+          font-size: 2rem;
+          background-color: black;
+          color: greenyellow;
+          list-style: none;
+          letter-spacing: 0.2rem;
+          height: 5vh;
+          width: 0.7vw;
+          margin-left: 2vw;
+        }
+        #day  {
+          font-family: 'Count';
+          font-size: 2rem;
+          background-color: black;
+          color: greenyellow;
+          list-style: none;
+          letter-spacing: 0.2rem;
+          height: 5vh;
+          width: 0.7vw;
+          margin-left: 5vw;
+        }
+        #year {
+          width: 2vw;
+          margin-left: 2.6vw;
+        }
+        #hour {
+          font-family: 'Count';
+          font-size: 2rem;
+          background-color: black;
+          color: greenyellow;
+          list-style: none;
+          letter-spacing: 0.2rem;
+          height: 5vh;
+          width: 0.7vw;
+          margin-left: 6vw;
+        }
+        #tilt {
+          color: greenyellow;
+          font-family: 'Count';
+          margin-left: 2.3vw;
+          font-size: 3.4rem;
+          margin-top: -0.8rem;
+        }
+        #minutes  {
+          font-family: 'Count';
+          font-size: 2rem;
+          background-color: black;
+          color: greenyellow;
+          list-style: none;
+          letter-spacing: 0.2rem;
+          height: 5vh;
+          width: 0.7vw;
+          margin-left: 1.2vw;
+        }
+        #btnGo  {
+          width: 3.1vw;
+          height: 5.8vh;
+          margin-left: 5vw;
+        }
+        #btnGo:hover  {
+          -webkit-animation: rotation 1s infinite linear;
+        }
+        @-webkit-keyframes rotation {
+            from {
+                -webkit-transform: rotate(0deg);
+            }
+            to {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+      }
+    }
+  }
+}
+
+main  {
+  #container  {
+    height: 87.7vh;
+    width: 99.9vw;
+    padding-top: 12.2vh;
+    .section  {
+      video  {
+        background: linear-gradient(#394c81, #6180d4);
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
